@@ -1,0 +1,61 @@
+baseURL: "https://majestic-panda-e01385.netlify.app/"
+languageCode: en-us
+title: HappyLaber
+theme: hugo-PaperMod
+
+menu:
+  main: 
+  - name: "Record"
+    weight: 1
+    url : "posts/"
+  - name: "Contact"
+    weight: 2
+    url : "about/"
+  
+params:
+    dateFormat : "2006-01-02"
+    ShowCodeCopyButtons: true
+    comments: true
+    defaultTheme: auto # dark,light
+    disableThemeToggle: false
+    homeInfoParams:
+        Title: Welcome!
+        Content: 做自己热爱,让心欢喜的事!
+        
+    socialIcons:
+    - name: "qq"
+      url: "https://qq.com"
+    - name: "bilibili"
+      url: "https://bilibili.com"
+    - name: "youtube"
+      url: "https://youtube.com"
+    - name: "github"
+      url: "https://github.com"
+    ShowShareButtons: true
+    ShareButtons: ["qq","bilibili","youtube","github"]
+       
+    profileMode:
+      enabled: true
+      imageUrl: "1.jpg" # optional
+      imageWidth: 120
+      imageHeight: 120
+      buttons:
+      - name: "Matlab"
+        url: "https://happysimple.github.io/001---MATLAB/"
+      - name: "Python"
+        url: "https://happysimple.github.io/002---PYTHON/"
+      - name: "GMT"
+        url: "https://happysimple.github.io/003---GMT/"
+      - name: "Ionosphere"
+        url: "https://happysimple.github.io/004---IONOSPHERE/"
+      - name: "Math"
+        url: "https://happysimple.github.io/005---MATH/"
+      - name: "Blogs"
+        url: "https://happysimple.github.io/006---BLOGS/"
+      - name: "Write"
+        url: "https://happysimple.github.io/007---WRITE/"
+      - name: "Everything"
+        url: "https://happysimple.github.io/999---EVERYTHING/"          
+
+    
+    
