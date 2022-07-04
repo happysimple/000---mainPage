@@ -14,14 +14,32 @@ menu:
   
 params:
     dateFormat : "2006-01-02"
+    ShowRssButtonInSectionTermList: true
     ShowCodeCopyButtons: true
+    ShowReadingTime: true
+    ShowWordCount: true
     comments: true
     defaultTheme: auto # dark,light
     disableThemeToggle: false
+    
+    
+    assets:
+      favicon: "1.jpg"
+      favicon16x16: "1-16x16.jpg"
+      favicon32x32: "1-32x32.jpg"
+      apple_touch_icon: "1.jpg"
+      safari_pinned_tab: "1.jpg"
+    
+    
+    label:
+      text: "Home"       
+    
+    
     homeInfoParams:
         Title: Welcome!
         Content: 做自己热爱,让心欢喜的事!
-        
+
+    
     socialIcons:
     - name: "qq"
       url: "https://qq.com"
@@ -33,6 +51,7 @@ params:
       url: "https://github.com"
     ShowShareButtons: true
     ShareButtons: ["qq","bilibili","youtube","github"]
+       
        
     profileMode:
       enabled: true
@@ -46,16 +65,14 @@ params:
         url: "https://happysimple.github.io/002---PYTHON/"
       - name: "GMT"
         url: "https://happysimple.github.io/003---GMT/"
-      - name: "Ionosphere"
-        url: "https://happysimple.github.io/004---IONOSPHERE/"
       - name: "Math"
         url: "https://happysimple.github.io/005---MATH/"
+      - name: "Ionosphere"
+        url: "https://happysimple.github.io/004---IONOSPHERE/"
       - name: "Blogs"
         url: "https://happysimple.github.io/006---BLOGS/"
-      - name: "Write"
-        url: "https://happysimple.github.io/007---WRITE/"
       - name: "Everything"
         url: "https://happysimple.github.io/999---EVERYTHING/"          
 
-    
-    
+      - name: "Write"
+        url: "https://happysimple.github.io/007---WRITE/"
