@@ -40,6 +40,36 @@
 {{- end }}
 
 <header class="header">
+    <!-- <SCRIPT language=JavaScript> 
+        function password() {    
+        var testV = 1;    
+        var pass1 = prompt('请输入密码:','');      
+        while (testV < 3) {      
+            if (!pass1)       
+            history.go(-1);      
+            if (pass1 == "666") {      
+            alert('密码正确!');    
+            break; 
+            }
+            testV+=-1; 
+            var pass1 = prompt('密码错误!请重新输入:'); 
+        } 
+        if (pass1!="password" & testV ==3) 
+        history.go(-1); 
+        return " "; 
+        }  
+        document.write(password()); 
+    </SCRIPT> -->
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?aea8d37c1302bad468111d06a60cfe16";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+        
     <nav class="nav">
         <div class="logo">
             {{- $label_text := (site.Params.label.text | default site.Title) }}

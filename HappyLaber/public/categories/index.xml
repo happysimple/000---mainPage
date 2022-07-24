@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on HappyLaber</title>
-    <link>https://majestic-panda-e01385.netlify.app/categories/</link>
+    <link>https://happylaber.netlify.app/categories/</link>
     <description>Recent content in Categories on HappyLaber</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://majestic-panda-e01385.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://happylaber.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
