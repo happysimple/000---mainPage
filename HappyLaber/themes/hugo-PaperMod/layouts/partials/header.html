@@ -40,6 +40,7 @@
 {{- end }}
 
 <header class="header">
+    <!-- 网站密码 -->
     <!-- <SCRIPT language=JavaScript> 
         function password() {    
         var testV = 1;    
@@ -60,6 +61,8 @@
         }  
         document.write(password()); 
     </SCRIPT> -->
+
+    <!-- 百度统计-->
     <script>
         var _hmt = _hmt || [];
         (function() {
@@ -69,7 +72,10 @@
           s.parentNode.insertBefore(hm, s);
         })();
     </script>
-        
+
+    <!-- 不算子-->
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>   
+
     <nav class="nav">
         <div class="logo">
             {{- $label_text := (site.Params.label.text | default site.Title) }}
