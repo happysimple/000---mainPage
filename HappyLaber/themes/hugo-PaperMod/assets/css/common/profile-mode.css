@@ -22,11 +22,12 @@
 
 .buttons {
     flex-wrap: wrap;
-    max-width: 400px;
+    max-width: 600px;
     margin: 0 auto;
 }
 
 .button {
+    width:120px;
     background: var(--tertiary);
     border-radius: var(--radius);
     margin: 8px;
@@ -36,8 +37,10 @@
 
 .button-inner {
     padding: 0 8px;
+    font-weight: 400;
 }
 
 .button:active {
     transform: scale(0.96);
 }
+

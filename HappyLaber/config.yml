@@ -3,14 +3,14 @@ languageCode: en-us
 title: HappyLaber
 theme: hugo-PaperMod
 
-menu:
-  main: 
-  - name: "Record"
-    weight: 1
-    url : "posts/"
-  - name: "Contact"
-    weight: 2
-    url : "about/"
+#menu:
+  #main: 
+  #- name: "About"
+  # weight: 1
+  #  url : "posts/"
+  #- name: "About"
+  #  weight: 1
+  #  url : "about/"
   
 params:
     dateFormat : "2006-01-02"
@@ -40,17 +40,17 @@ params:
         Content: 做自己热爱,让心欢喜的事!
 
     
-    socialIcons:
-    - name: "qq"
-      url: "https://qq.com"
-    - name: "bilibili"
-      url: "https://bilibili.com"
-    - name: "youtube"
-      url: "https://youtube.com"
-    - name: "github"
-      url: "https://github.com"
-    ShowShareButtons: true
-    ShareButtons: ["qq","bilibili","youtube","github"]
+    #socialIcons:
+    #- name: "qq"
+    #  url: "https://qq.com"
+    #- name: "bilibili"
+    #  url: "https://bilibili.com"
+    #- name: "youtube"
+    #  url: "https://youtube.com"
+    #- name: "github"
+    #  url: "https://github.com"
+    #ShowShareButtons: true
+    #ShareButtons: ["qq","bilibili","youtube","github"]
        
        
     profileMode:
@@ -70,9 +70,8 @@ params:
       - name: "Ionosphere"
         url: "https://happysimple.github.io/004---IONOSPHERE/"
       - name: "Blogs"
-        url: "https://happysimple.github.io/006---BLOGS/"
-      - name: "Everything"
-        url: "https://happysimple.github.io/999---EVERYTHING/"          
-
-      - name: "Write"
+        url: "https://happysimple.github.io/006---BLOGS/"          
+      - name: "Writing"
         url: "https://happysimple.github.io/007---WRITE/"
+      - name: "Everything"
+        url: "https://happysimple.github.io/999---EVERYTHING/"
