@@ -21,6 +21,7 @@ params:
     comments: true
     defaultTheme: auto # dark,light
     disableThemeToggle: false
+    hideFooter: true
     
     
     assets:
