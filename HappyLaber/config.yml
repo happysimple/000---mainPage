@@ -19,7 +19,7 @@ params:
     ShowReadingTime: true
     ShowWordCount: true
     comments: true
-    defaultTheme: auto # dark,light
+    defaultTheme: dark # dark,light
     disableThemeToggle: false
     hideFooter: true
     

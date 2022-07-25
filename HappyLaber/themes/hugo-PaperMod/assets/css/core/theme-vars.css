@@ -10,10 +10,10 @@
     --entry: rgb(255, 255, 255);
     --primary: rgb(30, 30, 30);
     --secondary: rgb(108, 108, 108);
-    --tertiary: rgb(214, 214, 214);
+    --tertiary: rgba(255, 255, 255, 0.591);
     --content: rgb(31, 31, 31);
     --hljs-bg: rgb(28, 29, 33);
-    --code-bg: rgb(245, 245, 245);
+    --code-bg: rgba(53, 209, 116, 0.274);
     --border: rgb(238, 238, 238);
 }
 
