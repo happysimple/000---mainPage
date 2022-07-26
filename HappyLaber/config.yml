@@ -33,7 +33,7 @@ params:
     
     
     label:
-      text: "Home"       
+      text: " "       
     
     
     homeInfoParams:
